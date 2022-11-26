@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Limpieza de código">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/deposit/DepositProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/deposit/DepositProcessorTest.java" afterDir="false" />
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Refactorización 01: Extract method">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TecladoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TecladoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TecladoTest.given_numbers_when_isNotNull_then">
+  <component name="RunManager" selected="JUnit.TecladoTest.given_numbers_when_isNull_then">
     <configuration name="TarjetaTest.given_creditCardNumberNotNull_when_validLenghtAndInvalidPassword_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
@@ -81,22 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CajeroAutomaticoMAVEN" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TarjetaTest" />
-      <option name="METHOD_NAME" value="given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TecladoTest.given_numbers_when_isNotNull_then" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
@@ -108,6 +92,22 @@
       <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TecladoTest" />
       <option name="METHOD_NAME" value="given_numbers_when_isNotNull_then" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TecladoTest.given_numbers_when_isNull_then" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CajeroAutomaticoMAVEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TecladoTest" />
+      <option name="METHOD_NAME" value="given_numbers_when_isNull_then" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TecladoTest.given_numbers_when_isNull_then" />
         <item itemvalue="JUnit.TecladoTest.given_numbers_when_isNotNull_then" />
         <item itemvalue="JUnit.TecladoTest.given_when_then" />
         <item itemvalue="JUnit.TecladoTest.given_numbers_when_isNumeric_then_ok" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumberNotNull_when_validLenghtAndInvalidPassword_then_OK" />
-        <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669505539628</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Refactorización 01: Extract method">
+      <created>1669506287043</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669506287043</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +322,8 @@
     <MESSAGE value="Before clase CuentaTest, Christian Nazate" />
     <MESSAGE value="Before clase Menu, Christian Nazate" />
     <MESSAGE value="Limpieza de código" />
-    <option name="LAST_COMMIT_MESSAGE" value="Limpieza de código" />
+    <MESSAGE value="Refactorización 01: Extract method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorización 01: Extract method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

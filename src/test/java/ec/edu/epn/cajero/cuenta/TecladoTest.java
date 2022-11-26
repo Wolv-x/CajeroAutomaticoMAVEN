@@ -1,10 +1,8 @@
 package ec.edu.epn.cajero.cuenta;
-
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 public class TecladoTest {
     Teclado teclado = null;
@@ -15,7 +13,6 @@ public class TecladoTest {
     }
     @Test
     public void given_numbers_when_isNumeric_then_ok() {
-
         assertTrue(teclado.isNumeric("5674839076573246"));
     }
 
@@ -23,4 +20,11 @@ public class TecladoTest {
     public void given_numbers_when_isNotNull_then() {
         assertNotNull("El objeto no es nulo", teclado);
     }
+
+    @Test
+    public void given_numbers_when_isNull_then() {
+        teclado = null;
+        assertNull("El objeto es nulo", teclado);
+    }
+
 }
