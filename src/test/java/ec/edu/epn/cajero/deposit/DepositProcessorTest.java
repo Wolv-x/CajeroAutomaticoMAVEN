@@ -1,8 +1,6 @@
 package ec.edu.epn.cajero.deposit;
-
 import org.junit.Test;
 import org.mockito.Mockito;
-
 import static org.junit.Assert.*;
 
 public class DepositProcessorTest {
@@ -22,7 +20,7 @@ public class DepositProcessorTest {
         DepositProcessor processor = new DepositProcessor(gateway);
 
         Mockito.when(gateway.requestDeposit(Mockito.any())).thenReturn(new DepositResponse(DepositResponse.DepositStatus.ERROR));
-        assertFalse(processor.makeDeposit(245));
+        assertFalse(processor.makeDeposit(480));
     }
 
 }
