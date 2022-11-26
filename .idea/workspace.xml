@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Actualizacion de la clase CuentaParametersTest, Christian Nazate">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Prueba de parametros metodo consultarSaldo, Christian Nazate">
       <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaParametersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669503127228</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Prueba de parametros metodo consultarSaldo, Christian Nazate">
+      <created>1669503945924</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669503945924</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +282,8 @@
     <MESSAGE value="AssertFalse en TarjetaTest" />
     <MESSAGE value="Creacion de la clase CuentaParametersTest, Christian Nazate" />
     <MESSAGE value="Test unitario con assertNotNull en clase TarjetaTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test unitario con assertNotNull en clase TarjetaTest" />
+    <MESSAGE value="Prueba de parametros metodo consultarSaldo, Christian Nazate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba de parametros metodo consultarSaldo, Christian Nazate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

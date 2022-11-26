@@ -14,7 +14,6 @@ import static org.junit.Assert.*;
 public class CuentaParametersTest {
     private float expected;
     private String numeroTarjeta;
-
     public CuentaParametersTest(String numeroTarjeta, float expected) {
         this.numeroTarjeta = numeroTarjeta;
         this.expected = expected;
@@ -35,4 +34,5 @@ public class CuentaParametersTest {
         float actual = cuenta.consultarSaldo(numeroTarjeta);
         assertEquals(expected, actual,0.0F);
     }
+
 }
