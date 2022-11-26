@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="AssertFalse en TarjetaTest">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/ITarjeta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/ITarjetaTest.java" beforeDir="false" />
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Test: assertFalse en la clase CuentaTest, Christian Nazate">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/MenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +63,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK">
-    <configuration name="CuentaTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MenuTest.given_aMenuObject_when_aNotNullObject_then_OK">
+    <configuration name="MenuTest.given_aMenuObject_when_aNotNullObject_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +73,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.CuentaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.MenuTest" />
+      <option name="METHOD_NAME" value="given_aMenuObject_when_aNotNullObject_then_OK" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MenuTest.given_aMenuObject_when_aNotNullObject_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenghtAndValidPassword_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenght_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_lenght_then_OK" />
-        <item itemvalue="JUnit.CuentaTest (1)" />
       </list>
     </recent_temporary>
   </component>
