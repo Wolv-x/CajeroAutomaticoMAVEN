@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Test: assertFalse en la clase CuentaTest, Christian Nazate">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/MenuTest.java" afterDir="false" />
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="AssertFalse en TarjetaTest">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_16_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_16_25__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_16_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_16_38__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_16_59__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_16_59__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TarjetaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TarjetaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,24 +67,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MenuTest.given_aMenuObject_when_aNotNullObject_then_OK">
-    <configuration name="MenuTest.given_aMenuObject_when_aNotNullObject_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CajeroAutomaticoMAVEN" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.MenuTest" />
-      <option name="METHOD_NAME" value="given_aMenuObject_when_aNotNullObject_then_OK" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TarjetaTest.given_creditCardNumber_when_lenght_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TarjetaTest.given_creditCardNumberNull_when_validLenghtAndInvalidPassword_then_OK">
+    <configuration name="TarjetaTest.given_creditCardNumberNotNull_when_validLenghtAndInvalidPassword_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +78,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TarjetaTest" />
-      <option name="METHOD_NAME" value="given_creditCardNumber_when_lenght_then_OK" />
+      <option name="METHOD_NAME" value="given_creditCardNumberNotNull_when_validLenghtAndInvalidPassword_then_OK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarjetaTest.given_creditCardNumberNull_when_validLenghtAndInvalidPassword_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CajeroAutomaticoMAVEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TarjetaTest" />
+      <option name="METHOD_NAME" value="given_creditCardNumberNull_when_validLenghtAndInvalidPassword_then_OK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MenuTest.given_aMenuObject_when_aNotNullObject_then_OK" />
+        <item itemvalue="JUnit.TarjetaTest.given_creditCardNumberNull_when_validLenghtAndInvalidPassword_then_OK" />
+        <item itemvalue="JUnit.TarjetaTest.given_creditCardNumberNotNull_when_validLenghtAndInvalidPassword_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenghtAndValidPassword_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenght_then_OK" />
-        <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_lenght_then_OK" />
       </list>
     </recent_temporary>
   </component>
