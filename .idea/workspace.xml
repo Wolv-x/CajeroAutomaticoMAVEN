@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Before clase Menu, Christian Nazate">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TecladoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TecladoTest.java" afterDir="false" />
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Limpieza de código">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/deposit/DepositProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/deposit/DepositProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669504485891</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Limpieza de código">
+      <created>1669505539628</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669505539628</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +314,8 @@
     <MESSAGE value="Prueba de parametros metodo consultarSaldo, Christian Nazate" />
     <MESSAGE value="Before clase CuentaTest, Christian Nazate" />
     <MESSAGE value="Before clase Menu, Christian Nazate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before clase Menu, Christian Nazate" />
+    <MESSAGE value="Limpieza de código" />
+    <option name="LAST_COMMIT_MESSAGE" value="Limpieza de código" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
