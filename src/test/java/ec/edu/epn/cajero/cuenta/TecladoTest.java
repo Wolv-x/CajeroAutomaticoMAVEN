@@ -20,7 +20,7 @@ public class TecladoTest {
     }
 
     @Test
-    public void given_when_then() {
+    public void given_numbers_when_isNotNull_then() {
         assertNotNull("El objeto no es nulo", teclado);
     }
 }

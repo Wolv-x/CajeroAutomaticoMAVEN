@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Before clase Menu, Christian Nazate">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TecladoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TecladoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,54 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuentaTest.given_aBalance_when_consultarSaldo_then_ok">
-    <configuration name="CuentaParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CajeroAutomaticoMAVEN" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.CuentaParametersTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuentaTest.given_aBalance_when_consultarSaldo_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CajeroAutomaticoMAVEN" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.CuentaTest" />
-      <option name="METHOD_NAME" value="given_aBalance_when_consultarSaldo_then_ok" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ICuentaTest.give_creditCardNumber_when_exist_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CajeroAutomaticoMAVEN" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.ICuentaTest" />
-      <option name="METHOD_NAME" value="give_creditCardNumber_when_exist_ok" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TecladoTest.given_numbers_when_isNotNull_then">
     <configuration name="TarjetaTest.given_creditCardNumberNotNull_when_validLenghtAndInvalidPassword_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
@@ -128,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TarjetaTest.given_creditCardNumberNull_when_validLenghtAndInvalidPassword_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +92,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TarjetaTest" />
-      <option name="METHOD_NAME" value="given_creditCardNumberNull_when_validLenghtAndInvalidPassword_then_OK" />
+      <option name="METHOD_NAME" value="given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TecladoTest.given_numbers_when_isNotNull_then" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CajeroAutomaticoMAVEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TecladoTest" />
+      <option name="METHOD_NAME" value="given_numbers_when_isNotNull_then" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TecladoTest.given_numbers_when_isNumeric_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CajeroAutomaticoMAVEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TecladoTest" />
+      <option name="METHOD_NAME" value="given_numbers_when_isNumeric_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TecladoTest.given_when_then" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CajeroAutomaticoMAVEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TecladoTest" />
+      <option name="METHOD_NAME" value="given_when_then" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CuentaTest.given_aBalance_when_consultarSaldo_then_ok" />
-        <item itemvalue="JUnit.CuentaParametersTest" />
-        <item itemvalue="JUnit.ICuentaTest.give_creditCardNumber_when_exist_ok" />
-        <item itemvalue="JUnit.TarjetaTest.given_creditCardNumberNull_when_validLenghtAndInvalidPassword_then_OK" />
+        <item itemvalue="JUnit.TecladoTest.given_numbers_when_isNotNull_then" />
+        <item itemvalue="JUnit.TecladoTest.given_when_then" />
+        <item itemvalue="JUnit.TecladoTest.given_numbers_when_isNumeric_then_ok" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumberNotNull_when_validLenghtAndInvalidPassword_then_OK" />
+        <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" />
       </list>
     </recent_temporary>
   </component>
