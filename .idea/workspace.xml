@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Modificación POM">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TarjetaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TarjetaTest.java" afterDir="false" />
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="AssertFalse en TarjetaTest">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/ITarjeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/ITarjetaTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669483349610</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="AssertFalse en TarjetaTest">
+      <created>1669498709712</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669498709712</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +258,7 @@
     <MESSAGE value="Solución de errores" />
     <MESSAGE value="Eliminación de clases duplicadas" />
     <MESSAGE value="Modificación POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificación POM" />
+    <MESSAGE value="AssertFalse en TarjetaTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="AssertFalse en TarjetaTest" />
   </component>
 </project>
