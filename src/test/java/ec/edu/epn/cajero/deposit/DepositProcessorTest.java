@@ -22,7 +22,7 @@ public class DepositProcessorTest {
         DepositProcessor processor = new DepositProcessor(gateway);
 
         Mockito.when(gateway.requestDeposit(Mockito.any())).thenReturn(new DepositResponse(DepositResponse.DepositStatus.ERROR));
-
         assertFalse(processor.makeDeposit(245));
     }
+
 }
