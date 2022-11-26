@@ -1,4 +1,4 @@
-package ec.edu.epn;
+package ec.edu.epn.cajero.cuenta;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,4 +9,4 @@ public class Main {
     }
 }
 
-//bloqueo de cuenta validacion por validacion NOOOOOOO
+//bloqueo de cajero validacion por validacion NOOOOOOO

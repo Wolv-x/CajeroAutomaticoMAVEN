@@ -1,4 +1,4 @@
-package ec.edu.epn;
+package ec.edu.epn.cajero.cuenta;
 
 import java.util.HashMap;
 

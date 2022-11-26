@@ -1,8 +1,6 @@
-package ec.edu.epn;
+package ec.edu.epn.cajero.cuenta;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class TecladoTest {
     @Test

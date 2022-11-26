@@ -1,4 +1,4 @@
-package ec.edu.epn;
+package ec.edu.epn.cajero.cuenta;
 
 import java.util.HashMap;
 
@@ -9,7 +9,7 @@ public class Tarjeta {
     public Tarjeta() {
         tarjetas = new HashMap<>();
         ingreso = new Teclado();
-        //numeros de cuenta de 6 digitos
+        //numeros de cajero de 6 digitos
         //            clave           contraseña
         tarjetas.put("4271900557374142", "123");
         tarjetas.put("4716050069748111", "672");
