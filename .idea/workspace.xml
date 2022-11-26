@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="AssertFalse en TarjetaTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaTest.java" afterDir="false" />
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Creacion de la clase CuentaParametersTest, Christian Nazate">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaParametersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669498709712</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creacion de la clase CuentaParametersTest, Christian Nazate">
+      <created>1669502169366</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669502169366</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +266,7 @@
     <MESSAGE value="Eliminación de clases duplicadas" />
     <MESSAGE value="Modificación POM" />
     <MESSAGE value="AssertFalse en TarjetaTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="AssertFalse en TarjetaTest" />
+    <MESSAGE value="Creacion de la clase CuentaParametersTest, Christian Nazate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de la clase CuentaParametersTest, Christian Nazate" />
   </component>
 </project>
