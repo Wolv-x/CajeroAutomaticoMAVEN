@@ -64,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuentaParametersTest">
+  <component name="RunManager" selected="JUnit.CuentaTest.given_aBalance_when_consultarSaldo_then_ok">
     <configuration name="CuentaParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
@@ -76,6 +76,22 @@
       <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.CuentaParametersTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaTest.given_aBalance_when_consultarSaldo_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CajeroAutomaticoMAVEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.CuentaTest" />
+      <option name="METHOD_NAME" value="given_aBalance_when_consultarSaldo_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,29 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CajeroAutomaticoMAVEN" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TarjetaTest" />
-      <option name="METHOD_NAME" value="given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CuentaTest.given_aBalance_when_consultarSaldo_then_ok" />
         <item itemvalue="JUnit.CuentaParametersTest" />
         <item itemvalue="JUnit.ICuentaTest.give_creditCardNumber_when_exist_ok" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumberNull_when_validLenghtAndInvalidPassword_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumberNotNull_when_validLenghtAndInvalidPassword_then_OK" />
-        <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenghtAndInvalidPassword_then_OK" />
       </list>
     </recent_temporary>
   </component>
