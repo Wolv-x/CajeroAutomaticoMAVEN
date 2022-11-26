@@ -12,6 +12,7 @@ public class TecladoTest {
     public void setUp() {
         teclado = new Teclado();
         System.out.println("Setup");
+
     }
     @Test
     public void given_numbers_when_isNumeric_then_ok() {
