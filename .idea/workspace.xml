@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Modificación POM">
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Eliminación de clases duplicadas">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TarjetaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/TarjetaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/deposit/DepositProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/deposit/DepositProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +67,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TarjetaTest.given_creditCardNumber_when_validLenght_then_OK">
-    <configuration name="CuentaTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CuentaTest.given_Number_when_isFloat_then_ERROR">
+    <configuration name="CuentaTest.given_Number_when_isFloat_then_ERROR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
         <pattern>
@@ -75,26 +78,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.CuentaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuentaTest.given_aBalance_when_consultarSaldo_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CajeroAutomaticoMAVEN" />
-      <option name="PACKAGE_NAME" value="ec.edu.epn" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.CuentaTest" />
-      <option name="METHOD_NAME" value="given_aBalance_when_consultarSaldo_then_ok" />
+      <option name="METHOD_NAME" value="given_Number_when_isFloat_then_ERROR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuentaTest.given_when_then" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CuentaTest.given_Number_when_isFloat_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
-      <option name="PACKAGE_NAME" value="ec.edu.epn" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.CuentaTest" />
-      <option name="METHOD_NAME" value="given_when_then" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.CuentaTest" />
+      <option name="METHOD_NAME" value="given_Number_when_isFloat_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ICuentaTest.give_creditCardNumber_when_exist_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CajeroAutomaticoMAVEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.ICuentaTest" />
+      <option name="METHOD_NAME" value="give_creditCardNumber_when_exist_ok" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CuentaTest.given_Number_when_isFloat_then_ERROR" />
+        <item itemvalue="JUnit.CuentaTest.given_Number_when_isFloat_then_ok" />
+        <item itemvalue="JUnit.ICuentaTest.give_creditCardNumber_when_exist_ok" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_validLenght_then_OK" />
         <item itemvalue="JUnit.TarjetaTest.given_creditCardNumber_when_lenght_then_OK" />
-        <item itemvalue="JUnit.CuentaTest (1)" />
-        <item itemvalue="JUnit.CuentaTest.given_aBalance_when_consultarSaldo_then_ok" />
-        <item itemvalue="JUnit.CuentaTest.given_when_then" />
       </list>
     </recent_temporary>
   </component>

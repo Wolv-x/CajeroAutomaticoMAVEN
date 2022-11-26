@@ -13,7 +13,6 @@ public class DepositProcessorTest {
         DepositProcessor processor = new DepositProcessor(gateway);
 
         Mockito.when(gateway.requestDeposit(Mockito.any())).thenReturn(new DepositResponse(DepositResponse.DepositStatus.OK));
-
         assertTrue(processor.makeDeposit(245));
     }
 
