@@ -1,8 +1,6 @@
 package ec.edu.epn.cajero.cuenta;
-
 import org.junit.Test;
 import org.mockito.Mockito;
-
 import static org.junit.Assert.*;
 
 public class ICuentaTest {
