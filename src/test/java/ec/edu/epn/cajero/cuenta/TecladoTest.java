@@ -1,14 +1,18 @@
 package ec.edu.epn.cajero.cuenta;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertNotNull;
 
 public class TecladoTest {
-
-    Teclado teclado = new Teclado();
-
+    Teclado teclado = null;
+    @Before
+    public void setUp() {
+        teclado = new Teclado();
+        System.out.println("Setup");
+    }
     @Test
     public void given_numbers_when_isNumeric_then_ok() {
 

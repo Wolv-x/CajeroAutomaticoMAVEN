@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Before clase CuentaTest, Christian Nazate">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/MenuTest.java" afterDir="false" />
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Before clase Menu, Christian Nazate">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Cuenta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669504330047</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Before clase Menu, Christian Nazate">
+      <created>1669504485891</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669504485891</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +305,8 @@
     <MESSAGE value="Test unitario con assertNotNull en clase TarjetaTest" />
     <MESSAGE value="Prueba de parametros metodo consultarSaldo, Christian Nazate" />
     <MESSAGE value="Before clase CuentaTest, Christian Nazate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before clase CuentaTest, Christian Nazate" />
+    <MESSAGE value="Before clase Menu, Christian Nazate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before clase Menu, Christian Nazate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

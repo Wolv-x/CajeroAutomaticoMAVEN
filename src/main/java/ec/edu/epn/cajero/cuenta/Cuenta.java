@@ -22,13 +22,11 @@ public class Cuenta {
 
     public String retirarDinero(String numeroTarjeta) {
         System.out.print("Ingrese el monto que desea retirar: ");
-
         String retorno = "";
+
         try {
             float dinero = Float.parseFloat(ingreso.getEntrada());
-
             float saldoResultante = cuenta.get(numeroTarjeta) - dinero;
-
 
             if (saldoResultante < 0) {
                 retorno = "Saldo insuficiente para realizar la transaccion.";
