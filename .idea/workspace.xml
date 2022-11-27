@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Refactorización 01: Extract method">
+    <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Clase Cuenta Metodo retirarDinero, Christian Nazate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Teclado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Teclado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/CuentaParametersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669506698409</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Clase Cuenta Metodo retirarDinero, Christian Nazate">
+      <created>1669509369325</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669509369325</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +338,8 @@
     <MESSAGE value="Limpieza de código" />
     <MESSAGE value="Refactorización 01: Extract method" />
     <MESSAGE value="Test unitario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test unitario" />
+    <MESSAGE value="Clase Cuenta Metodo retirarDinero, Christian Nazate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase Cuenta Metodo retirarDinero, Christian Nazate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

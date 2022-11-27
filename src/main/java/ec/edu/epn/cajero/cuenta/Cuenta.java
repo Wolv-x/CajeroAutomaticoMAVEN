@@ -22,19 +22,14 @@ public class Cuenta {
 
     public String retirarDinero(String numeroTarjeta) {
         System.out.print("Ingrese el monto que desea retirar: ");
-        String retorno;
-
         String dinero = ingreso.getEntrada();
-        if(isFloat(dinero)){
+        if (isFloat(dinero)) {
             float saldoResultante = consultarSaldo(numeroTarjeta) - Float.parseFloat(dinero);
-            if (saldoResultante<0){
-                retorno = "Saldo insuficiente para realizar la transaccion.";
-                return retorno;
-            }else{
+            if (saldoResultante < 0) {
+                return "Saldo insuficiente para realizar la transaccion.";
+            } else {
                 cuenta.replace(numeroTarjeta, saldoResultante);
-                retorno = "Se ha retirado: " + dinero + "$.";
-                retorno += "\nSaldo restante: " + saldoResultante;
-                return retorno;
+                return "Se ha retirado: " + dinero + "$.\nSaldo restante: " + saldoResultante;
             }
         }
         return "Ha surgido un Error inesperado.";
@@ -50,5 +45,4 @@ public class Cuenta {
             return false;
         }
     }
-
 }
