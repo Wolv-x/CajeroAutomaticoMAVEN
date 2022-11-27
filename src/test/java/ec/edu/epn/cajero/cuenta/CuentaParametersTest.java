@@ -34,5 +34,10 @@ public class CuentaParametersTest {
         float actual = cuenta.consultarSaldo(numeroTarjeta);
         assertEquals(expected, actual,0.0F);
     }
+    @Test
+    public void given_parameters_when_retirarSaldo_then_ok() {
+        Cuenta cuenta = new Cuenta();
+        assertNotNull("",cuenta.retirarDinero("1234567890"));
+    }
 
 }

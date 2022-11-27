@@ -27,6 +27,16 @@ public class Teclado {
             return false;
         }
     }
+    public static boolean isFloat(String cadena) {
+        try {
+            Float.parseFloat(cadena);
+            return true;
+        } catch (NumberFormatException nfe) {
+            System.out.println("INGRESE SOLO NÚMEROS, CERRANDO EL PROGRAMA.....");
+            System.exit(0);
+            return false;
+        }
+    }
 
 
 

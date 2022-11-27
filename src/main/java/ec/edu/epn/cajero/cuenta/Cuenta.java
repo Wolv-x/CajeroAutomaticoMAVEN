@@ -25,17 +25,19 @@ public class Cuenta {
         String retorno;
 
         String dinero = ingreso.getEntrada();
-        float saldoResultante = consultarSaldo(numeroTarjeta) - Float.parseFloat(dinero);
-
-        if (isFloat(dinero) && (saldoResultante<0)){
-            retorno = "Saldo insuficiente para realizar la transaccion.";
-            return retorno;
-        }else{
-            cuenta.replace(numeroTarjeta, saldoResultante);
-            retorno = "Se ha retirado: " + dinero + "$.";
-            retorno += "\nSaldo restante: " + saldoResultante;
-            return retorno;
+        if(isFloat(dinero)){
+            float saldoResultante = consultarSaldo(numeroTarjeta) - Float.parseFloat(dinero);
+            if (saldoResultante<0){
+                retorno = "Saldo insuficiente para realizar la transaccion.";
+                return retorno;
+            }else{
+                cuenta.replace(numeroTarjeta, saldoResultante);
+                retorno = "Se ha retirado: " + dinero + "$.";
+                retorno += "\nSaldo restante: " + saldoResultante;
+                return retorno;
+            }
         }
+        return "Ha surgido un Error inesperado.";
     }
 
     public static boolean isFloat(String cadena) {
