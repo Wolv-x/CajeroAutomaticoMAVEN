@@ -1,13 +1,9 @@
 package ec.edu.epn.cajero.cuenta;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
 import java.util.ArrayList;
 import java.util.List;
-
-
 import static org.junit.Assert.*;
 
 @RunWith(value = Parameterized.class)
@@ -33,11 +29,6 @@ public class CuentaParametersTest {
         Cuenta cuenta = new Cuenta();
         float actual = cuenta.consultarSaldo(numeroTarjeta);
         assertEquals(expected, actual,0.0F);
-    }
-    @Test
-    public void given_parameters_when_retirarSaldo_then_ok() {
-        Cuenta cuenta = new Cuenta();
-        assertNotNull("",cuenta.retirarDinero("1234567890"));
     }
 
 }

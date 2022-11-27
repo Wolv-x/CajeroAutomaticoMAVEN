@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bccd1cc8-314d-4ef0-a99e-572bfdff8bca" name="Changes" comment="Clase Cuenta Metodo retirarDinero, Christian Nazate">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/cajero/cuenta/cuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/cajero/cuenta/Cuenta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuentaParametersTest">
+  <component name="RunManager" selected="JUnit.TarjetaParametersTest.given_parameters_when_validarTarjeta_then_ok">
     <configuration name="CuentaParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajeroAutomaticoMAVEN" />
       <extension name="coverage">
@@ -92,6 +92,22 @@
       <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.CuentaParametersTest" />
       <option name="METHOD_NAME" value="given_parameters_when_retirarSaldo_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarjetaParametersTest.given_parameters_when_validarTarjeta_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CajeroAutomaticoMAVEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TarjetaParametersTest" />
+      <option name="METHOD_NAME" value="given_parameters_when_validarTarjeta_then_ok" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,29 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TecladoTest.given_when_then" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CajeroAutomaticoMAVEN" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.cajero.cuenta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.cajero.cuenta" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.cajero.cuenta.TecladoTest" />
-      <option name="METHOD_NAME" value="given_when_then" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TarjetaParametersTest.given_parameters_when_validarTarjeta_then_ok" />
         <item itemvalue="JUnit.CuentaParametersTest" />
         <item itemvalue="JUnit.CuentaParametersTest.given_parameters_when_retirarSaldo_then_ok" />
         <item itemvalue="JUnit.TecladoTest.given_numbers_when_isNull_then" />
         <item itemvalue="JUnit.TecladoTest.given_numbers_when_isNotNull_then" />
-        <item itemvalue="JUnit.TecladoTest.given_when_then" />
       </list>
     </recent_temporary>
   </component>
