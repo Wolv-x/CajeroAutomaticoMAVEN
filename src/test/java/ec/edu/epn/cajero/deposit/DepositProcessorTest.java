@@ -1,13 +1,15 @@
 package ec.edu.epn.cajero.deposit;
+import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import static org.junit.Assert.*;
 
 public class DepositProcessorTest {
 
-    private DepositGateway gateway = null;
-    private DepositProcessor processor = null;
+    private DepositGateway gateway;
+    private DepositProcessor processor;
 
+    @Before
     public void setUp() {
         gateway = Mockito.mock(DepositGateway.class);
         processor = new DepositProcessor(gateway);
