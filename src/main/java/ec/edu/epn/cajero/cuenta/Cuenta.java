@@ -23,7 +23,7 @@ public class Cuenta {
     public String retirarDinero(String numeroTarjeta) {
         System.out.print("Ingrese el monto que desea retirar: ");
         String dinero = ingreso.getEntrada();
-        if (isFloat(dinero)) {
+        if (Teclado.isFloat(dinero)) {
             float saldoResultante = consultarSaldo(numeroTarjeta) - Float.parseFloat(dinero);
             if (saldoResultante < 0) {
                 return "Saldo insuficiente para realizar la transaccion.";
@@ -35,14 +35,4 @@ public class Cuenta {
         return "Ha surgido un Error inesperado.";
     }
 
-    public static boolean isFloat(String cadena) {
-        try {
-            Float.parseFloat(cadena);
-            return true;
-        } catch (NumberFormatException nfe) {
-            System.out.println("INGRESE SOLO NÚMEROS, CERRANDO EL PROGRAMA.....");
-            System.exit(0);
-            return false;
-        }
-    }
 }

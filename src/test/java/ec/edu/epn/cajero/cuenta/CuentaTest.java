@@ -21,7 +21,7 @@ public class CuentaTest {
 
     @Test
     public void given_Number_when_isFloat_then_ERROR() {
-        assertFalse(Cuenta.isFloat("a27.2"));
+        assertFalse(Teclado.isFloat("a27.2"));
     }
 
 }
