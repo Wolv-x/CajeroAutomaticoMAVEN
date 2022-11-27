@@ -22,28 +22,20 @@ public class Cuenta {
 
     public String retirarDinero(String numeroTarjeta) {
         System.out.print("Ingrese el monto que desea retirar: ");
-        String retorno = "";
+        String retorno;
 
-        try {
-            float dinero = Float.parseFloat(ingreso.getEntrada());
-            float saldoResultante = cuenta.get(numeroTarjeta) - dinero;
+        String dinero = ingreso.getEntrada();
+        float saldoResultante = consultarSaldo(numeroTarjeta) - Float.parseFloat(dinero);
 
-            if (saldoResultante < 0) {
-                retorno = "Saldo insuficiente para realizar la transaccion.";
-                return retorno;
-            } else {
-                cuenta.replace(numeroTarjeta, saldoResultante);
-                retorno = "Se ha retirado: " + dinero + "$.";
-                retorno += "\nSaldo restante: " + saldoResultante;
-                return retorno;
-            }
-        } catch (NumberFormatException e) {
-            System.out.println("INGRESE SOLO NÚMEROS, CERRANDO EL PROGRAMA.....");
-            System.exit(0);
+        if (isFloat(dinero) && (saldoResultante<0)){
+            retorno = "Saldo insuficiente para realizar la transaccion.";
+            return retorno;
+        }else{
+            cuenta.replace(numeroTarjeta, saldoResultante);
+            retorno = "Se ha retirado: " + dinero + "$.";
+            retorno += "\nSaldo restante: " + saldoResultante;
+            return retorno;
         }
-        retorno ="Ha ocurrido un error inesperado, no se pudo realizar la transaccion.";
-        return retorno;
-        ///se debe controlar que sean numeros los valores ingresados
     }
 
     public static boolean isFloat(String cadena) {
